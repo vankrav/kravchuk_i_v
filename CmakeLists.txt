@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.11)
+set (CMAKE_CXX_STANDARD 11)
+project(kravchuk_i_v)
+
+include_directories(prj.lab prj.thirdparty)
+
+add_subdirectory(prj.lab)
+add_subdirectory(prj.thirdparty)
